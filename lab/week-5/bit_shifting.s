@@ -31,7 +31,7 @@ start_pattern:
         rcall delay_half_sec
 
         ; shift right
-        rsl r20
+        lsr r20
         out PORTB, r20
         out PORTD, r20
         rcall delay_half_sec
